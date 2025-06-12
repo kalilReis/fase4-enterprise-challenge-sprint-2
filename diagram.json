@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "author": "Kalil Reis de Sisto",
+  "editor": "wokwi",
+  "parts": [
+    {
+      "type": "board-esp32-devkit-c-v4",
+      "id": "esp",
+      "top": 0,
+      "left": 0,
+      "attrs": {}
+    },
+    { "type": "wokwi-dht22", "id": "dht", "top": -80, "left": 200, "attrs": {} }
+  ],
+  "connections": [
+    ["esp:TX", "$serialMonitor:RX", "#808080", []],
+    ["esp:RX", "$serialMonitor:TX", "#808080", []],
+    ["dht:GND", "esp:GND.1", "#000000", ["v118.7", "h-239.19"]],
+    ["dht:VCC", "esp:3V3", "#FF0000", []],
+    ["dht:SDA", "esp:15", "#800080", ["v22.7", "h-123.74"]]
+  ],
+  "dependencies": {}
+}

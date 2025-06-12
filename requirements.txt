@@ -1,0 +1,69 @@
+Introdução
+1 CHALLENGE REPLY
+
+Olá, turma.
+
+Chegamos agora à segunda entrega do nosso desafio em parceria com a empresa Hermes Reply, voltado para a Fase 4 do curso. Nesta etapa, vamos evoluir a proposta teórica apresentada na fase anterior e começar a construção do circuito de coleta de dados usando o ESP32 e sensoriamento.
+
+A Hermes Reply atua com soluções digitais aplicadas à indústria e um de seus focos é o monitoramento inteligente de equipamentos. Para isso, é essencial coletar dados reais dos ambientes industriais — e é exatamente isso que vocês irão simular nesta fase do desafio.
+
+1.1 CONTEXTO
+
+A coleta de dados em ambientes industriais modernos é realizada através de sensores conectados a sistemas embarcados, como o ESP32. Esses sensores monitoram variáveis como temperatura, vibração, luminosidade e qualidade do ar, fornecendo informações críticas para análise e predição de falhas.
+
+Com a chegada da Indústria 4.0, empresas como a Hermes Reply têm apostado fortemente na digitalização do chão de fábrica, conectando sensores e dispositivos a plataformas de dados em nuvem. Isso permite a análise em tempo real e a tomada de decisões baseadas em dados.
+
+Nesta fase do desafio, vocês deverão simular esse cenário utilizando plataformas online de simulação de circuitos e sensores — as mesmas exploradas em sala de aula, como o VScode, Wokwi e platformio. Essas ferramentas permitem criar circuitos virtuais, simular o comportamento de sensores e obter dados realistas para análise.
+
+O foco será construir uma simulação funcional do circuito com ESP32, integrando sensores que podem gerar dados que serão utilizados para análises iniciais em Python ou R. A experiência simula um ambiente industrial digitalizado, preparando vocês para desafios mais avançados com Inteligência Artificial e automação.
+
+1.2 OBJETIVOS
+
+Nesta entrega, vocês deverão aplicar os conhecimentos adquiridos para projetar e simular um sistema básico de coleta de dados, utilizando uma plataforma online como o VScode, Wokwi e platformio.
+
+O objetivo é entender como sensores virtuais podem representar sensores reais dentro de um sistema embarcado, construindo um circuito simples com o ESP32 e integrando sensores simulados.
+
+Os sensores devem ser inseridos e programados como se fossem sensores físicos reais. Para simular os dados, vocês podem utilizar recursos da própria plataforma (como simulação interna de valores), ou inserir dados fictícios manualmente, tentando reproduzir comportamentos próximos dos reais (por exemplo: variações de temperatura, luminosidade ou vibração).
+
+Também é possível buscar dados de sensores reais em repositórios públicos, como o Kaggle, e adaptar esses dados para testes no sistema.
+
+Vocês deverão:
+
+Criar um circuito virtual com ESP32 e ao menos um sensor simulado;
+Programar a leitura do sensor dentro da plataforma de simulação, ajustando os valores simulados conforme o cenário desejado;
+Registrar os dados lidos (via Monitor Serial, exportação para CSV ou simulação textual);
+Criar, no mínimo, um gráfico simples (linha, barra ou dispersão) com base nos dados coletados ou simulados;
+Documentar o processo no GitHub, com prints do circuito, código, dados e da análise feita.
+O foco é a construção de um circuito simples e funcional e o entendimento do fluxo de coleta, leitura e análise de dados dentro de um sistema embarcado, ainda que em ambiente simulado.
+
+1.3 REQUISITOS TÉCNICOS E FUNCIONAIS
+
+A proposta técnica da entrega 2 deve demonstrar a construção simulada de um circuito funcional com ESP32 e sensores, incluindo:
+
+Indicação dos sensores virtuais utilizados e o motivo da escolha;
+Esquema básico do circuito elétrico (captura de tela da simulação no VScode, Wokwi, platformio ou outra plataforma similar ensinada em aula);
+Breve explicação de como os dados estão sendo lidos na simulação;
+Um trecho representativo do código (leitura dos sensores e envio/visualização dos dados);
+Registro do funcionamento da simulação (prints do Monitor Serial ou do comportamento dos sensores);
+Um exemplo inicial de gráfico ou estatística simples dos dados gerados na simulação.
+1.4 ENTREGÁVEIS
+
+1.4.1 Documentação via GitHub Público
+
+          A entrega deverá ser feita através de um repositório público no GitHub contendo:
+
+Imagens da simulação do circuito (prints da plataforma usada);
+Lista de sensores virtuais e justificativa da escolha;
+Código-fonte comentado da leitura e visualização de dados simulados;
+Prints do comportamento da simulação (Monitor Serial ou simulação de dados);
+Gráficos e insights iniciais da análise exploratória;
+README com explicações claras e bem estruturadas sobre o funcionamento do sistema.
+
+
+O grupo deve ter de 3 a 5 integrantes;
+O GitHub deve ser PÚBLICO, e o link do repositório deve ser enviado em um arquivo .txt ou PDF.
+1.5 REGRAS GERAIS
+
+O repositório não poderá sofrer alterações após a data limite de entrega;
+Todos os integrantes devem participar da simulação e documentação;
+A avaliação será feita com base em: clareza da montagem virtual, coerência técnica, organização da documentação e qualidade da análise inicial.

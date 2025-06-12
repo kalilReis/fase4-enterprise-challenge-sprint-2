@@ -2,3 +2,7 @@
 *.tsv
 *.xls
 *.xlsx
+*.libeps
+build
+*.pio
+*.vscode
