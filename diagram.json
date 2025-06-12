@@ -10,14 +10,39 @@
       "left": 0,
       "attrs": {}
     },
-    { "type": "wokwi-dht22", "id": "dht", "top": -80, "left": 200, "attrs": {} }
+    {
+      "type": "wokwi-dht22",
+      "id": "dht",
+      "top": -134.1,
+      "left": 138.6,
+      "attrs": {}
+    },
+    {
+      "type": "wokwi-relay-module",
+      "id": "relay",
+      "top": 77,
+      "left": 201.6,
+      "attrs": {}
+    },
+    {
+      "type": "wokwi-led",
+      "id": "led",
+      "top": 82.8,
+      "left": -111.4,
+      "attrs": {}
+    }
   ],
   "connections": [
     ["esp:TX", "$serialMonitor:RX", "#808080", []],
     ["esp:RX", "$serialMonitor:TX", "#808080", []],
     ["dht:GND", "esp:GND.1", "#000000", ["v118.7", "h-239.19"]],
-    ["dht:VCC", "esp:3V3", "#FF0000", []],
-    ["dht:SDA", "esp:15", "#800080", ["v22.7", "h-123.74"]]
+    ["dht:VCC", "esp:3V3", "#FF0000", ["v67.2", "h-148.99"]],
+    ["dht:SDA", "esp:15", "#800080", ["v22.7", "h0.1", "v169.3"]],
+    ["relay:GND", "esp:GND.1", "#000000", []],
+    ["relay:VCC", "esp:3V3", "#FF0000", ["h-57.6", "v-3", "h-115.2", "v-64.2"]],
+    ["relay:IN", "esp:4", "#FFA500", ["v25.6", "h-99.24"]],
+    ["led:C", "esp:GND.1", "#000000", ["v9.6", "h101.01"]],
+    ["led:A", "esp:19", "#FF0000", ["v19.2", "h187.16"]]
   ],
   "dependencies": {}
 }
