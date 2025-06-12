@@ -20,7 +20,8 @@ void loop() {
 
   // Print readings
   Serial.printf(
-    "Temp: %.1f°C, Umid: %.1f%%\n",
+    "Timestamp: %lu, Temp: %.1f°C, Umid: %.1f%%\n",
+    millis() / 1000,
     temperature,
     humidity
   );

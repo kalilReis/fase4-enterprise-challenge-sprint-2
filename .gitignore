@@ -6,3 +6,5 @@
 build
 *.pio
 *.vscode
+venv
+.venv
