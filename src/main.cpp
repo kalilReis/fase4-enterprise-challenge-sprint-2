@@ -16,10 +16,12 @@ void setup() {
 void loop() {
   // Read sensors
   float humidity = dht.getHumidity();
+  float temperature = dht.getTemperature();
 
   // Print readings
   Serial.printf(
-    "Umid: %.1f%%\n",
+    "Temp: %.1f°C, Umid: %.1f%%\n",
+    temperature,
     humidity
   );
 
