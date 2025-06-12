@@ -27,7 +27,15 @@
 
 ## 📜 Descrição
 
-_Descreva seu projeto com base no texto do PBL (até 600 palavras)_
+O projeto tem como objetivo coletar, através de sensores, as informações de temperatura e umidade de uma determinada máquina. Após a coleta, um gráfico será gerado demonstrando o resultado dessas medições ao longo do tempo.
+
+**Imagem do Circuito**
+
+![Circuito](assets/circuit_picture.png)
+
+**Temperatura e Humidade através do tempo**
+
+![Gráfico de Dados do Sensor](assets/sensor_data_plot.png)
 
 ## 📁 Estrutura de pastas
 
@@ -47,16 +55,11 @@ _Acrescentar as informações necessárias sobre pré-requisitos (IDEs, serviço
 
 ## 🗃 Histórico de lançamentos
 
-- 0.5.0 - XX/XX/2024
-  -
-- 0.4.0 - XX/XX/2024
-  -
-- 0.3.0 - XX/XX/2024
-  -
-- 0.2.0 - XX/XX/2024
-  -
-- 0.1.0 - XX/XX/2024
-  -
+- ## 0.5.0 - XX/XX/2024
+- ## 0.4.0 - XX/XX/2024
+- ## 0.3.0 - XX/XX/2024
+- ## 0.2.0 - XX/XX/2024
+- ## 0.1.0 - XX/XX/2024
 
 ## 📋 Licença
 
