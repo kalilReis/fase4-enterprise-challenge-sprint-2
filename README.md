@@ -27,7 +27,7 @@
 
 ## 📜 Descrição
 
-O projeto tem como objetivo coletar, através de sensores, as informações de temperatura e umidade de uma determinada máquina. Após a coleta, um gráfico será gerado demonstrando o resultado dessas medições ao longo do tempo.
+O projeto tem como objetivo coletar, através de sensores (DHT22), as informações de temperatura e umidade de uma determinada máquina. Após a coleta, um gráfico será gerado demonstrando o resultado dessas medições ao longo do tempo.
 
 **Imagem do Circuito**
 
